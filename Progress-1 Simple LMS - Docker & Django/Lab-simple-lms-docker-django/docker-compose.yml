@@ -1,0 +1,62 @@
+# docker-compose.yml
+
+services:
+  # Django Application
+  app:
+    build: .
+    working_dir: /app
+    command: python manage.py runserver 0.0.0.0:8000
+    container_name: simple_lms
+    tty: true
+    stdin_open: true
+
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=True
+      - DATABASE_URL=postgres://postgres:postgres@database:5432/lms_db
+      - REDIS_URL=redis://redis:6379/0
+    volumes:
+      - ./code:/app
+    depends_on:
+      database:
+        condition: service_healthy
+      redis:
+        condition: service_started
+    networks:
+      - lms-network
+
+  # PostgreSQL Database
+  database:
+    image: postgres:15-alpine
+    container_name: lms_database
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: lms_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - lms-network
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: lms_redis
+    volumes:
+      - redis_data:/data
+    networks:
+      - lms-network
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  lms-network:
+    driver: bridge

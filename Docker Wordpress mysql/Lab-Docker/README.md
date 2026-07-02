@@ -1,6 +1,6 @@
-# Tugas Lab Docker: WordPress CMS dengan Redis Cache
+# Nama : Muhammad Ni'am Mawahib
 
----
+## NIM : A11.2023.15462
 
 ## 1. Langkah Menjalankan Stack
 
@@ -20,19 +20,19 @@
 
 ### C. Docker Containers Running (docker ps)
 
-![Docker PS](img/Screenshot3.png)
+![Docker PS](img/3.png)
 
 ### D. Redis CLI Ping Test
 
-![Redis Ping](img/Screenshot4.png)
+![Redis Ping](img/4.png)
 
 ### E. Redis Object Cache Connected
 
-![Redis Connected](img/Screenshot5.png)
+![Redis Connected](img/5.png)
 
 ### F. Post Page
 
-![POST](img/Screenshot6.png)
+![POST](img/6.png)
 
 ---
 

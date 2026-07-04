@@ -13,7 +13,7 @@
 **Kelas** : A11.4602
 
 **Repository** :
-https://github.com/username/final-project
+https://github.com/Niammwhb/Pemro-Sisi-Server/tree/main/Final-Project%20Simple%20LMS
 
 ---
 
@@ -181,7 +181,7 @@ Flower digunakan untuk melakukan monitoring seluruh task Celery secara realtime.
 ## 1. Clone repository
 
 ```bash
-git clone https://github.com/username/final-project.git
+git clone https://github.com/Niammwhb/Pemro-Sisi-Server/tree/main/Final-Project%20Simple%20LMS.git
 ```
 
 ---

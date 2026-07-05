@@ -355,33 +355,63 @@ GET /api/courses/health
 
 # Screenshot / Bukti Pengujian
 
-semua dokumentasi hasil screenshot ada pada folder:
+Semua dokumentasi hasil screenshot berada pada folder `img/`.
 
-```
-img/
-```
+## 1. Project Structure
 
-Contoh:
-
-```
-## Project Structure
 ![Project Structure](img/img1-project-structure.png)
 
-## Docker Running
+## 2. Docker Running
+
 ![Docker Running](img/img2-docker-running.png)
-img3-Docker containers.png
-img4-Swagger home.png
-img5-Register api.png
-img/login-jwt.png
-img/dashboard-api.png
-img/course-list.png
-img/health-check.png
-img/django-admin.png
-img/flower-dashboard.png
-img/rabbitmq-dashboard.png
-img/mongodb-log.png
-img/redis-cache.png
-```
+
+## 3. Docker Containers
+
+![Docker Containers](img/img3-docker-containers.png)
+
+## 4. Swagger Home
+
+![Swagger Home](img/img4-swagger-home.png)
+
+## 5. Register API
+
+![Register API](img/img5-register-api.png)
+
+## 6. Login JWT
+
+![Login JWT](img/login-jwt.png)
+
+## 7. Dashboard API
+
+![Dashboard API](img/dashboard-api.png)
+
+## 8. Course List
+
+![Course List](img/course-list.png)
+
+## 9. Health Check
+
+![Health Check](img/health-check.png)
+
+## 10. Django Admin
+
+![Django Admin](img/django-admin.png)
+
+## 11. Flower Dashboard
+
+![Flower Dashboard](img/flower-dashboard.png)
+
+## 12. RabbitMQ Dashboard
+
+![RabbitMQ Dashboard](img/rabbitmq-dashboard.png)
+
+## 13. MongoDB Log
+
+![MongoDB Log](img/mongodb-log.png)
+
+## 14. Redis Cache
+
+![Redis Cache](img/redis-cache.png)
 
 ---
 

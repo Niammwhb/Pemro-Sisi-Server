@@ -181,7 +181,7 @@ Flower digunakan untuk melakukan monitoring seluruh task Celery secara realtime.
 ## 1. Clone repository
 
 ```bash
-git clone https://github.com/Niammwhb/Pemro-Sisi-Server/tree/main/Final-Project%20Simple%20LMS.git
+git clone https://github.com/Niammwhb/Pemro-Sisi-Server.git
 ```
 
 ---
@@ -364,9 +364,11 @@ img/
 Contoh:
 
 ```
-img/docker-compose.png
-img/docker-ps.png
-img/swagger-api.png
+img1-Project structure.png
+img2-Docker running.png
+img3-Docker containers.png
+img4-Swagger home.png
+img5-Register api.png
 img/login-jwt.png
 img/dashboard-api.png
 img/course-list.png

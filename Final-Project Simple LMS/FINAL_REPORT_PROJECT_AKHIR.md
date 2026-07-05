@@ -364,8 +364,11 @@ img/
 Contoh:
 
 ```
-img1-Project structure.png
-img2-Docker running.png
+## Project Structure
+![Project Structure](img/img1-project-structure.png)
+
+## Docker Running
+![Docker Running](img/img2-docker-running.png)
 img3-Docker containers.png
 img4-Swagger home.png
 img5-Register api.png

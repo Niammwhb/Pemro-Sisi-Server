@@ -407,11 +407,11 @@ Semua dokumentasi hasil screenshot berada pada folder `img/`.
 
 ## 13. Redis Cache
 
-![Health Check](img/img7-Health check.png)
+![Redis Cache](img/img7-Redis%20Cache.png.png)
 
 ## 14. Django Admin
 
-![Redis Cache](img/img11-Admin dashboard.png)
+![Django Admin](img/img11-Admin dashboard.png)
 
 ## 15. PostgreSQL
 

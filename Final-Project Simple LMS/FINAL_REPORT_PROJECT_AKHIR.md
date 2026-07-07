@@ -371,7 +371,8 @@ Semua dokumentasi hasil screenshot berada pada folder `img/`.
 
 ## 4. Swagger Home
 
-![Swagger Home](img/img4-Swagger%20home.png),(img/img4-Swagger%20home1.png)
+![Swagger Home](img/img4-Swagger%20home.png)
+![Swagger Home](img/img4-Swagger%20home1.png)
 
 ## 5. Register API
 

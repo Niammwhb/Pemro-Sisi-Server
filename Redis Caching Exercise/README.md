@@ -40,7 +40,7 @@ Redis digunakan sebagai **in-memory cache** untuk mengurangi waktu response dari
 ## 1. Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/Niammwhb/Pemro-Sisi-Server>
 cd Redis-Caching-Exercise
 ```
 

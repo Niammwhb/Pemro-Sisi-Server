@@ -407,7 +407,7 @@ Semua dokumentasi hasil screenshot berada pada folder `img/`.
 
 ## 13. Redis Cache
 
-![Redis Cache](img/img7-Redis%20Cache.png.png)
+![Redis Cache](img/img7-Redis%20Cache.png)
 
 ## 14. Django Admin
 

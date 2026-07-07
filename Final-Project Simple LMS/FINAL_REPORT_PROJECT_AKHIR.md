@@ -359,59 +359,63 @@ Semua dokumentasi hasil screenshot berada pada folder `img/`.
 
 ## 1. Project Structure
 
-![Project Structure](img/img1-project-structure.png)
+![Project Structure](img/img1-Project structure.png)
 
 ## 2. Docker Running
 
-![Docker Running](img/img2-docker-running.png)
+![Docker Running](img/img2-Docker running.png)
 
 ## 3. Docker Containers
 
-![Docker Containers](img/img3-docker-containers.png)
+![Docker Containers](img/img3-Docker containers.png)
 
 ## 4. Swagger Home
 
-![Swagger Home](img/img4-swagger-home.png)
+![Swagger Home](img/img4-Swagger home.png) (img/img4-Swagger home.png)
 
 ## 5. Register API
 
-![Register API](img/img5-register-api.png)
+![Register API](img/img5-Register api.png)
 
 ## 6. Login JWT
 
-![Login JWT](img/login-jwt.png)
+![Login API & JWT Login](img/img6-Login api.png)
 
 ## 7. Dashboard API
 
-![Dashboard API](img/dashboard-api.png)
+![Dashboard API](img/img8-Dashboard api.png)
 
 ## 8. Course List
 
-![Course List](img/course-list.png)
+![Course List](img/img9-Course list.png)
 
-## 9. Health Check
+## 9. Django Admin
 
-![Health Check](img/health-check.png)
+![Redis Cache](img/img11-Admin dashboard.png)
 
-## 10. Django Admin
+## 10. Flower Dashboard
 
-![Django Admin](img/django-admin.png)
+![Flower Dashboard](img/img12-Flower dashboard.png)
 
-## 11. Flower Dashboard
+## 11. RabbitMQ Dashboard
 
-![Flower Dashboard](img/flower-dashboard.png)
+![RabbitMQ Dashboard](img/img13-Rabbitmq dashboard.png)
 
-## 12. RabbitMQ Dashboard
+## 12. MongoDB Log
 
-![RabbitMQ Dashboard](img/rabbitmq-dashboard.png)
+![MongoDB Log](img/img15-Mongodb log.png)
 
-## 13. MongoDB Log
+## 13. Redis Cache
 
-![MongoDB Log](img/mongodb-log.png)
+![Health Check](img/img7-Health check.png)
 
-## 14. Redis Cache
+## 14. Django Admin
 
-![Redis Cache](img/redis-cache.png)
+![Redis Cache](img/img11-Admin dashboard.png)
+
+## 15. PostgreSQL
+
+![Postgre SQL](img/img14-Postgresql data.png)
 
 ---
 
